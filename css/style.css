@@ -1,6 +1,61 @@
 /* common */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+
+
+/* header */
+.header-top{
+    height: 80px;
+}
+
+.logo{
+    width: 50%;
+    line-height: 95px;
+    padding-left: 40px;
+}
+
+.logo img{
+    width: 70px;
+}
+
+.nav-bar{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav{
+    flex-basis: 60%;
+    justify-content: space-around;
+}
+
+.nav-link{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* debug */
+.debug .header-top{
+    background: red;
+}
+
+.debug .logo{
+    background: blue;
+}
+
+.debug .nav-bar{
+    background: yellow;
+}
+
+.debug .nav{
+    background: green;
 }
