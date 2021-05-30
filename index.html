@@ -5,38 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <!-- framework flix css-->
     <link rel="stylesheet" href="css/flix.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- style css -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="debug">
+<body>
     <!-- intestazione pagina -->
-    <header class="header-top d-flex">
-        <!-- nav top -->
-        <div class="logo">
-            <a href="#"><img src="img/dark.png" alt="name-logo"></a>
+    <header class="header-top row">
+        <div class="col-12 col-lg-6">
+            <div class="logo">
+                <a href="#"><img src="img/dark.png" alt="name-logo"></a>
+            </div>
+            <button class="navbar-toggler responsive-nav" type="button">
+                <i class="fas fa-bars"></i>
+            </button>
         </div>
-        <nav class="nav-bar">
-            <ul class="nav">
+        <!-- nav bar -->
+        <nav class="col-12 col-lg-6 nav-toggle">
+            <ul class="navbar-expand-lg navbar-collapse">
                 <li>
-                    <a class="nav-link">Home</a>
+                    <a href="#" class="nav-link">Home</a>
                 </li>
                 <li>
-                    <a class="nav-link">About</a>
+                    <a href="#" class="nav-link">About</a>
                 </li>
                 <li>
-                    <a class="nav-link">Portfolio</a>
+                    <a href="#" class="nav-link">Portfolio</a>
                 </li>
                 <li>
-                    <a class="nav-link">News</a>
+                    <a href="#" class="nav-link">News</a>
                 </li>
                 <li>
-                    <a class="nav-link">Contact</a>
+                    <a href="#" class="nav-link">Contact</a>
                 </li>
             </ul>
         </nav>
-        <!-- fine nav top -->
+        <!-- fine nav bar -->
     </header>
     <!-- fine intestazione pagina -->
 
@@ -47,5 +57,8 @@
     <!-- footer -->
     <footer></footer>
     <!-- fine footer -->
+
+    <!-- app JS -->
+    <script src="js/app.js"></script>
 </body>
 </html>
